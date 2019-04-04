@@ -39,7 +39,7 @@
         platform.create(50, 550); //1
         platform.create(100,400); //3
         platform.create(300, 475); //2
-        platform.create(400,225); //5
+        platform.create(400,250); //5
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
