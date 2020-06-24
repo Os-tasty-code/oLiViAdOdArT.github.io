@@ -4,9 +4,9 @@
         <title>O's Corner</title>
         <style>
             body {
-                background: rgb(127, 159, 240);
+                background: rgb(222, 229, 255);
                 color: rgb(45, 45, 45);
-                padding: 10px;
+                padding: 100px;
                 font-family: tahoma;
             }
             header {
@@ -19,7 +19,7 @@
             }
             
             nav {
-                background: rgb(218, 150, 250);
+                background: rgb(69, 59, 128);
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
@@ -42,7 +42,7 @@
                 color: #fff;
             }
             main {
-                background: rgb(79, 82, 196);
+                background: rgb(157, 173, 242);
                 display: flex;
             }
             .sidebar {
@@ -50,17 +50,28 @@
                 padding: 10px;
             }
             .sidebar img {
-                width: 200px;
-                border: 20px solid;
-                border-radius: 30px 30px;
+                width: 300px;
+                box-shadow: 5px 5px #454545;
             }
             .content {
                 flex: 1;
                 padding: 15px;
+                column-gap: 50px;
             }
             .interests header {
                 font-size: 1.25em;
             }
+            .screenpics{
+                padding:10px 10px;
+                column-gap: 20px;
+            }
+            #proj1 {
+                margin-bottom: 20px;
+            }
+            #proj2 {
+                right: 20px;
+            }
+            
         </style>
     </head>
     
@@ -74,21 +85,22 @@
                 </ul>
             </nav>
             <main>
+                <div class="content">
+                    <h1>O Dodart</h1>
+                    <h5>they/them</h5>
+                    <p> 
+                        George Mason University, Class of 2024
+                    </ps>
+                    <section class="showcase">
+                        <h2>Operation Spark Projects</h2>
+                        <p>During my high school career, 
+                        I attended <a href="https://operationspark.org/">Operation Spark</a> and received my
+                        IBC Level 2 in Javascript.</p>
+                </div>
                 <div class="sidebar">
                     <img src="https://os-tasty-code.github.io/file[1801].jpeg">
                 </div>
-                <div class="content">
-                    <h1>O</h1>
-                    <p> 
-                        George Mason University, Class of 2024
-                    </p>
-                <section class="showcase">
-                    <h2>Operation Spark Projects</h2>
-                    <p>During my high school career, 
-                    I attended <a href="https://operationspark.org/">Operation Spark</a>.
-                    Here are some of my favorite projects I created.</p>
                 </section>
-                </div>
             </main>
         </div>
     </body>
