@@ -78,12 +78,10 @@
     <body>
       <div id="all-contents">
         <nav>
-            <header>~ O's Corner ~ </header>
+            <header>~ O's Corner ~</header>
             <ul>
-                <li><a href="index.html">Home</a>
-                </li>
-                <li><a href="portfolio.html">Portfolio</a>
-                </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
             </ul>
         </nav>
         <main>
@@ -101,7 +99,9 @@
                 data.projects.forEach(function(project){ 
                     $('#portfolio').append('<li><a href="projects/' + project.name + '/">' + project.title + '</a></li>'); 
                 });
-            }); 
+                //change heroku to updated heroku app
+                $('#portfolio').append('<li><a href="http://choreapp-321.herokuapp.com/">Chore App</a></li>'); 
+            });
         });</script>
     </body>
 </html>
