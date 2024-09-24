@@ -2,5 +2,6 @@
   {"name":"bouncing-box","title":"Bouncing Box","description":"A project that gives you a taste of game development on the web ","date":"Thursday, October 11, 2018"},
   {"name":"platformer","title":"Platformer","description":"A cannon - dodging, collectible - grabbing adventure game for Halleb0t","date":"Thursday, October 18, 2018"},
   {"name":"circularity","title":"Circularity","description":"A motion poem using random number generation and velocity applied to circle shapes...","date":"Monday, November 26, 2018"},
-  {"name":"snake","title":"Snake","description":"A simple game of snake recreated","date":"Wednesday, May 11, 2022"}
+  {"name":"snake","title":"Snake","description":"A simple game of snake recreated","date":"Wednesday, May 11, 2022"},
+  {"name":"gallery","title":"Gallery","description":"A project that presents other projects in fun way","date":"Tuesday,September 24, 2024"}
 ]}
