@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-        <div id="header"></div>
-        <div id="main"></div>
-        
-        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-        <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-        <script src="components/main.jsx" type="text/babel" defer></script>
+    <div id="header"></div>
+    <div id="main"></div>
+
+    <!-- Babel Standalone for on-the-fly transpiling -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- React and ReactDOM for rendering -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- Main index.jsx file -->
+    <script type="text/babel" data-presets="react,env" src="components/main.jsx" defer></script>
   </body>
 </html>
