@@ -1,4 +1,4 @@
-import React from 'react';
+'use strict';
 
 const head = [
   {
@@ -11,25 +11,25 @@ const head = [
   }
 ];
 
-// class Header extends React.Component {
-//   constructor(props) {
-//     super(props);
-//   }
+class Header extends React.Component {
+  constructor(props) {
+    super(props);
+  }
   
-//   render() {
-//     const navi = this.props.val.map((val) => {
-//       const path = "../../" + val.path;
-//       return <li><a href={path}>{val.name}</a></li>
-//     })
+  render() {
+    const navi = this.props.val.map((val) => {
+      const path = "../../" + val.path;
+      return <li><a href={path}>{val.name}</a></li>
+    })
     
-//     return (<nav>
-//       <header>~ O's Corner ~ </header>
-//       <ul>
-//         {navi}
-//       </ul>
-//   </nav>);
-//   }
-// }
+    return (<nav>
+      <header>~ O's Corner ~ </header>
+      <ul>
+        {navi}
+      </ul>
+  </nav>);
+  }
+}
 
 class Main extends React.Component {
   constructor(props) {
